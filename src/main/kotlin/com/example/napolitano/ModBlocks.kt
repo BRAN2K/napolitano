@@ -19,6 +19,8 @@ object ModBlocks {
         { properties -> Block(properties) },
         BlockBehaviour.Properties.of()
             .sound(SoundType.STONE)
+            .strength(5.0F, 6.0F)
+            .requiresCorrectToolForDrops()
     )
 
     private fun register(
