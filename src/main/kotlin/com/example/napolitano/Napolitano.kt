@@ -1,16 +1,16 @@
-package com.example.myfirstmod
+package com.example.napolitano
 
 import net.fabricmc.api.ModInitializer
 import net.minecraft.resources.Identifier
 import org.slf4j.LoggerFactory
 
-object MyFirstMod : ModInitializer {
-	const val MOD_ID: String = "firstmod"
+object Napolitano : ModInitializer {
+	const val MOD_ID: String = "napolitano"
 
 	private val LOGGER = LoggerFactory.getLogger(MOD_ID)
 
 	override fun onInitialize() {
-		LOGGER.info("Hello Fabric world!")
+		LOGGER.info("Hello Napolitano!")
 
     ModBlocks.initialize()
 	}

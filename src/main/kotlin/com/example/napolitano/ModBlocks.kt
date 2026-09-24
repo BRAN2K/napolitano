@@ -1,4 +1,4 @@
-package com.example.myfirstmod
+package com.example.napolitano
 
 import net.fabricmc.fabric.api.creativetab.v1.CreativeModeTabEvents
 import net.minecraft.core.Registry
@@ -28,12 +28,12 @@ object ModBlocks {
     ): Block {
         val blockKey: ResourceKey<Block> = ResourceKey.create(
             Registries.BLOCK,
-            Identifier.fromNamespaceAndPath(MyFirstMod.MOD_ID, name)
+            Identifier.fromNamespaceAndPath(Napolitano.MOD_ID, name)
         )
 
         val itemKey: ResourceKey<Item> = ResourceKey.create(
             Registries.ITEM,
-            Identifier.fromNamespaceAndPath(MyFirstMod.MOD_ID, name)
+            Identifier.fromNamespaceAndPath(Napolitano.MOD_ID, name)
         )
 
         val block = blockFactory(properties.setId(blockKey))

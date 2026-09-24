@@ -1,9 +1,9 @@
 {
 	"schemaVersion": 1,
-	"id": "firstmod",
+	"id": "napolitano",
 	"version": "${version}",
-	"name": "My First Mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Napolitano",
+	"description": "A simple Fabric mod.",
 	"authors": [
 		"Me!"
 	],
@@ -12,26 +12,26 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/firstmod/icon.png",
+	"icon": "assets/napolitano/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
 			{
-				"value": "com.example.myfirstmod.MyFirstMod",
+				"value": "com.example.napolitano.Napolitano",
 				"adapter": "kotlin"
 			}
 		],
 		"client": [
 			{
-				"value": "com.example.myfirstmod.client.MyFirstModClient",
+				"value": "com.example.napolitano.client.NapolitanoClient",
 				"adapter": "kotlin"
 			}
 		]
 	},
 	"mixins": [
-		"my-first-mod.mixins.json",
+		"napolitano.mixins.json",
 		{
-			"config": "my-first-mod.client.mixins.json",
+			"config": "napolitano.client.mixins.json",
 			"environment": "client"
 		}
 	],
