@@ -1,0 +1,9 @@
+package com.example.myfirstmod.client
+
+import net.fabricmc.api.ClientModInitializer
+
+object MyFirstModClient : ClientModInitializer {
+	override fun onInitializeClient() {
+		// This entrypoint is suitable for setting up client-specific logic, such as rendering.
+	}
+}
