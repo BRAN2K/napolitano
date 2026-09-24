@@ -35,7 +35,7 @@ object ModBlocks {
         { properties -> RubyBlock(properties) },
         BlockBehaviour.Properties.of()
             .sound(RUBY_BLOCK_SOUND_TYPE)
-            .lightLevel { 15 }
+            .lightLevel { 5 }
             .strength(5.0F, 6.0F)
             .requiresCorrectToolForDrops()
     )
